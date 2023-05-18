@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9ddfc69c0c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo1.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#heade">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#certificates">Certifications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Mechanical Engineer</p>
+                    <h1>Hi, I'm <span>Santosh</span><br> Hatte from India</h1>
+                </div>
+            </div>
+        </div>
+<!------------------------About----------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/profile-hd.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p> My full name is Rohan Raju Kotkar, and I am from Chandrapur , Maharashtra.
+                            Currently living in Alandi, Pune and Pursuing my BTech in Mechanical Engineering 
+                            from MIT Academy Of Engineering , Alandi, Pune. Currently I am in final year.
+                             <br>
+                             <br> 
+                            Apart from learing of these Mechanical Engineering subject I have also learned 
+                            some of the Software related Programming language like C++ , Python etc.
+                            I have good command in these Programming language and also have done Certification in that language too.
+                            <br>
+                            <br>
+                            About my strength I am a quick learner hard working and flexible boy. I have positive attitude towards my carrier.
+                            My short term goal is to get a job in reputed company where I can improve my skills and My long term goal 
+                            is to achieve a good position where I can build my  carrier and help the organization too.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>MECHANICAL ENGINEER</span><br>Designing CAD Model</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>Software Development</span><br>Developing Software </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Jun 2022 - July 2022</span><br>Tathastu DSA Scholar Intern</li>
+                                <li><span>Jun 2021 - July 2021</span><br>Trainee at Dhariwal Infrastructure Limited</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Aug-2019 - Current</span><br>Mechanical Engineering At MIT College Of Engineering, Alandi, Pune, Maharashtra</li>
+                                <li><span>2019</span><br>HSC from Vidya Vihar Junior College, Chandrapur, Maharashtra</li>
+                                <li><span>2017</span><br>SSC from St. Michael's English School, Chandrapur, Maharashtra </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  <!------------Portfolio---------------------->
+  <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/minor-111.jpg">
+                        <div class="layer">
+                            <h3> Modification in Cargo Bicycle</h3>
+                            <p>The main aim was to make the modification in the exisiting 
+                                cargo bicycle so that it can be used in both the ways like
+                                Normal way and the another in the cargo mode. 
+                            </p>
+                            <a href="https://github.com/RohanKotkar/Minor-Project.git"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="images/major11.jpg">
+                    <div class="layer">
+                        <h3> Modification in Paddock Stand</h3>
+                        <p>The main aim was to make the modification in the universal paddock stand. 
+                           Usually the paddock stand is used for the superbikes but the paddock 
+                           stand size varies as the dimensions of the superbikes changes from 
+                           company to company.</p>
+                        <a href="https://github.com/RohanKotkar/Major-Project.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3> Capstone project</h3>
+                            <p> In these capstone work I have tried to write the Blogs on the topic C++ programming. 
+                                Here i have tried to cover various topics from ots basic to advance level, Detail information 
+                            is given in the link... </p> 
+                            <a href="https://rohan4650.hashnode.dev/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+  </div>
+
+
+
+    <!------------certificates---------------------->
+
+    <div id="certificates">
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+            <div class="certi-list">
+                <div class="certi">
+                    <img src="images/cpp.jpg">
+                        <div class="layer">
+                            <h3> C++ Programming -Beginner to Advance ( By Udemy ) </h3>
+                            <a href="https://github.com/RohanKotkar/Certificates.git"><i class="fas fa-external-link-alt"></i></a>
+                        </div> 
+                </div>
+                <div class="certi">
+                    <img src="images/python_1.jpg">
+                    <div class="layer">
+                        <h3> Programming for Everybody with Python ( By Coursera ) </h3>
+                        <a href="https://github.com/RohanKotkar/Certificates.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div> 
+                </div>
+                <div class="certi">
+                    <img src="images/python_2.jpg">
+                    <div class="layer">
+                        <h3> Python Data Structure ( By Coursera ) </h3>
+                        <a href="https://github.com/RohanKotkar/Certificates.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div> 
+                </div>
+                <div class="certi">
+                    <img src="images/oops.jpg">
+                    <div class="layer">
+                        <h3> Object Oriented Programming ( By Infosys Springboard ) </h3>
+                        <a href="https://github.com/RohanKotkar/Certificates.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div> 
+                </div>
+                <div class="certi">
+                    <img src="images/sql_1.jpg">
+                    <div class="layer">
+                        <h3> SQL Basics ( By Hacker-rank ) </h3>
+                        <a href="https://github.com/RohanKotkar/Certificates.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div> 
+                </div>
+                <div class="certi">
+                    <img src="images/c_1.png">
+                    <div class="layer">
+                        <h3> C and C++ Training ( By Intern-shala ) </h3>
+                        <a href="https://github.com/RohanKotkar/Certificates.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>        
+    
+    <!---------------contact-------------->
+    
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>rohankotkar17@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8956180034</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/rohan.kotkar/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rohan-kotkar-4195b8232/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Personal Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email" placeholder="Your email" requied>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="Submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Rohan <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    
+    
+    
+    
+    <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    </script>
+
+    <script>
+        
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+                sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+                sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby5DmST114vDDXVYKh-3LphV8H7iFoIbwVwySdeDbupR2tQcTYwyG9UPkg2wuLXQ3zg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
